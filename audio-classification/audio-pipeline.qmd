@@ -40,7 +40,7 @@ from transformers import pipeline
 # Pipeline
 
 
-- Create a pipeline() and specify an inference task:
+- Create a pipeline() and specify the inference task automatic-speech-recognition (uses Facebook's Wav2Vec2 model):
 
 . . .
 
@@ -60,7 +60,7 @@ generator = pipeline(task="automatic-speech-recognition")
 
 ```{python}
 generator(
-    "https://github.com/kirenz/transformers/raw/main/huggingface/sound/mlk.flac")
+    "https://github.com/kirenz/huggingface/blob/main/audio-classification/sound/mlk.flac")
 
 ```
 
