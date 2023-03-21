@@ -1,0 +1,84 @@
+---
+title: "Speech recognition"
+lang: en
+subtitle: "Hugging Face 🤗 Pipeline"
+author: Jan Kirenz
+execute:
+  eval: false
+  echo: true
+highlight-style: github
+format:
+  revealjs: 
+    toc: true
+    toc-depth: 1
+    embed-resources: false
+    theme: [dark, ../custom.scss]  
+    incremental: true
+    transition: slide
+    transition-speed: slow
+    background-transition: fade
+    code-copy: true
+    code-line-numbers: true
+    smaller: false
+    scrollable: true
+    slide-number: c
+    preview-links: auto
+    chalkboard: 
+      buttons: false
+    #logo: images/logo.png
+    footer: "Source: [Hugging Face](https://huggingface.co/) | Jan Kirenz"
+---
+
+
+## Python setup
+
+```{python}
+from transformers import pipeline
+
+```
+
+# Pipeline
+
+
+- Create a pipeline() and specify an inference task:
+
+. . .
+
+```{python}
+
+generator = pipeline(task="automatic-speech-recognition")
+
+```
+
+
+
+## Pass input
+
+- Pass your input text to the pipeline():
+
+. . .
+
+```{python}
+generator(
+    "https://github.com/kirenz/transformers/raw/main/huggingface/sound/mlk.flac")
+
+```
+
+## Customizing Pipelines
+
+- Change model or tokenizer
+
+
+```{python}
+AutoTokenizer, AutoModelForSequenceClassification
+
+model_name = 'distilbert-base-uncased-finetuned-sst-2-english'
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+custom_pipeline = pipeline(
+    'sentiment-analysis', tokenizer=tokenizer, model=model)
+
+```
+
