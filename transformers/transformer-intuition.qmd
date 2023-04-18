@@ -26,7 +26,7 @@ format:
     chalkboard: 
       buttons: false
     #logo: images/logo.png
-    footer: "Source: [Hugging Face](https://huggingface.co/tasks/question-answering) | Jan Kirenz"
+    footer: "Jan Kirenz"
 ---
 
 
