@@ -30,17 +30,19 @@ format:
 ---
 
 
-# Introduction
-
-
-{{< video https://www.youtube.com/embed/SZorAJ4I-sA >}}
+# Intuition
 
 Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale Markowitz
 
 
+##
+
+{{< video https://www.youtube.com/embed/SZorAJ4I-sA >}}
+
+
 ## Important Architectures
 
-- Convolutional Neural Network (CNN): Images
+- Convolutional Neural Network (CNN): Vision
 
 - Recurrent Neural Network (RNN): Text
 
