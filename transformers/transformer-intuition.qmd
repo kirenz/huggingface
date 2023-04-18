@@ -65,7 +65,7 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 - T5 (Text-to-Text Transfer Transformer)
 
 
-## AutoGPT
+## 
 
 {{< video https://www.youtube.com/embed/_rGXIXyNqpk width="1920" height="1080" >}}
 
