@@ -65,6 +65,6 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 ## AutoGPT
 
-{{< video https://www.youtube.com/embed/_rGXIXyNqp k >}}
+{{< video https://www.youtube.com/embed/_rGXIXyNqpk >}}
 
 
