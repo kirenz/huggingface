@@ -408,24 +408,40 @@ Jan Kirenz
 <nav role="doc-toc"> 
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li class="fragment"><a href="#/pipeline-example" id="/toc-pipeline-example">Pipeline example</a></li>
+<li class="fragment"><a href="#/python-setup" id="/toc-python-setup">Python setup</a></li>
+<li class="fragment"><a href="#/intuition" id="/toc-intuition">Intuition</a>
+<ul>
+<li class="fragment"><a href="#/use-cases" id="/toc-use-cases">Use Cases</a></li>
+<li class="fragment"><a href="#/task-variants" id="/toc-task-variants">Task Variants</a></li>
+</ul></li>
+<li class="fragment"><a href="#/pipeline-example" id="/toc-pipeline-example">Pipeline example</a>
+<ul>
+<li class="fragment"><a href="#/create-pipeline-with-gpt-2" id="/toc-create-pipeline-with-gpt-2">Create pipeline with GPT-2</a></li>
+<li class="fragment"><a href="#/provide-text" id="/toc-provide-text">Provide text</a></li>
+<li class="fragment"><a href="#/make-inference" id="/toc-make-inference">Make inference</a></li>
+<li class="fragment"><a href="#/output" id="/toc-output">Output</a></li>
+</ul></li>
 </ul>
 </nav>
 </section>
-<section id="python-setup" class="slide level2">
-<h2>Python setup</h2>
+<section id="python-setup" class="title-slide slide level1 center">
+<h1>Python setup</h1>
 <ul>
 <li class="fragment"><p>You need Anaconda or Miniconda</p></li>
 <li class="fragment"><p>Install this virtual environment <a href="https://github.com/kirenz/environments">env-transformers.yml</a></p></li>
 </ul>
+<div class="fragment">
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div>
 </section>
-<section id="intuition" class="slide level2">
-<h2>Intuition</h2>
 
-<img data-src="image/text-generation.png.png" class="quarto-discovered-preview-image r-stretch"></section>
+<section>
+<section id="intuition" class="title-slide slide level1 center">
+<h1>Intuition</h1>
+
+<img data-src="image/text-generation.png" class="quarto-discovered-preview-image r-stretch"></section>
 <section id="use-cases" class="slide level2">
 <h2>Use Cases</h2>
 <ul>
@@ -453,7 +469,7 @@ Jan Kirenz
 <li class="fragment">takes an incomplete text and returns multiple outputs with which the text can be completed.</li>
 </ul></li>
 </ul>
-</section>
+</section></section>
 <section>
 <section id="pipeline-example" class="title-slide slide level1 center">
 <h1>Pipeline example</h1>
