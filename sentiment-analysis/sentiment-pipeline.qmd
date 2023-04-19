@@ -63,7 +63,7 @@ from transformers import pipeline
 
 # Pipeline
 
-# Pipeline example with default model
+## Pipeline example with default model
 
 
 ```{python}
@@ -111,12 +111,12 @@ specific_model(data)
  {'label': 'NEG', 'score': 0.9806600213050842}]
 ```
 
-# Available models {.smaller}
+# Available models
 
 - Sentiment analysis models on the [Hub](https://huggingface.co/models?pipeline_tag=text-classification&sort=downloads&search=sentiment)
 
 
-- *Twitter-roberta-base-sentiment* is a roBERTa model trained on ~58M tweets and fine-tuned^[Fine-tuning is the process of taking a pre-trained large language model (e.g. roBERTa in this case) and then tweaking it with additional training data to make it perform a second similar task (e.g. sentiment analysis)] for sentiment analysis.
+- *Twitter-roberta-base-sentiment* is a roBERTa model trained on ~58M tweets and fine-tuned 
 
 - *Bert-base-multilingual-uncased-sentiment* is a model fine-tuned for sentiment analysis on product reviews in six languages: English, Dutch, German, French, Spanish and Italian.
 
