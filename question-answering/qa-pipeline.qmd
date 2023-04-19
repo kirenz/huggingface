@@ -62,7 +62,8 @@ from transformers import pipeline
 
 # Common types {.smaller  }
 
-- *Extractive* QA: The model extracts the answer from the original context.^[The context could be a provided text, a table or even HTML! This is usually solved with BERT-like models.]
+- *Extractive* QA: The model extracts the answer from the original context.
+  - The context could be a provided text, a table or even HTML! This is usually solved with BERT-like models.
 
 - *Open Generative* QA: The model generates free text directly based on the context. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Text Generation"
 lang: en
-subtitle: "Using Hugging Face 🤗 Pipeline"
+subtitle: "Hugging Face 🤗 Pipeline"
 author: Jan Kirenz
 execute:
   eval: false
@@ -29,16 +29,12 @@ format:
     footer: "Source: [Hugging Face](https://huggingface.co/) | Jan Kirenz"
 ---
 
-# Prerequisites
-
-## Installation
+## Python setup
 
 - You need Anaconda or Miniconda
 
 - Install this virtual environment [env-transformers.yml](https://github.com/kirenz/environments) 
 
-
-## Python setup
 
 ```{python}
 from transformers import pipeline
@@ -48,7 +44,6 @@ from transformers import pipeline
 ## Intuition
 
 ![](image/text-generation.png.png)
-
 
 
 
