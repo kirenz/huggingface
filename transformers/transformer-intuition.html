@@ -343,18 +343,31 @@ Jan Kirenz
 <nav role="doc-toc"> 
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li class="fragment"><a href="#/intuition" id="/toc-intuition">Intuition</a></li>
+<li class="fragment"><a href="#/intuition" id="/toc-intuition">Intuition</a>
+<ul>
 <li class="fragment"><a href="#/section" id="/toc-section"></a></li>
 <li class="fragment"><a href="#/important-architectures" id="/toc-important-architectures">Important Architectures</a></li>
-<li class="fragment"><a href="#/transformers" id="/toc-transformers">Transformers</a></li>
-<li class="fragment"><a href="#/important-models" id="/toc-important-models">Important Models</a></li>
+<li class="fragment"><a href="#/main-characteristics-of-transformers" id="/toc-main-characteristics-of-transformers">Main Characteristics of Transformers</a></li>
+<li class="fragment"><a href="#/popular-transformer-models" id="/toc-popular-transformer-models">Popular Transformer Models</a></li>
+</ul></li>
+<li class="fragment"><a href="#/hugging-face-transforming-the-ai-landscape" id="/toc-hugging-face-transforming-the-ai-landscape">Hugging Face: Transforming the AI Landscape</a>
+<ul>
+<li class="fragment"><a href="#/overview" id="/toc-overview">Overview</a></li>
+<li class="fragment"><a href="#/hugging-face-model-hub" id="/toc-hugging-face-model-hub">Hugging Face Model Hub</a></li>
+<li class="fragment"><a href="#/hugging-face-datasets" id="/toc-hugging-face-datasets">Hugging Face Datasets</a></li>
+<li class="fragment"><a href="#/hugging-face-pipelines" id="/toc-hugging-face-pipelines">Hugging Face Pipelines</a></li>
+</ul></li>
+<li class="fragment"><a href="#/state-of-the-art-examples" id="/toc-state-of-the-art-examples">State of the Art Examples</a>
+<ul>
 <li class="fragment"><a href="#/section-1" id="/toc-section-1"></a></li>
 <li class="fragment"><a href="#/section-2" id="/toc-section-2"></a></li>
+</ul></li>
 </ul>
 </nav>
 </section>
-<section id="intuition" class="slide level2">
-<h2>Intuition</h2>
+<section>
+<section id="intuition" class="title-slide slide level1 center">
+<h1>Intuition</h1>
 <p>Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale Markowitz</p>
 </section>
 <section id="section" class="slide level2">
@@ -369,21 +382,85 @@ Jan Kirenz
 <li class="fragment"><p>Transformers: Text and more</p></li>
 </ul>
 </section>
-<section id="transformers" class="slide level2">
-<h2>Transformers</h2>
+<section id="main-characteristics-of-transformers" class="slide level2">
+<h2>Main Characteristics of Transformers</h2>
 <ul>
 <li class="fragment"><p>Positional Encoding</p></li>
 <li class="fragment"><p>Attention</p></li>
 <li class="fragment"><p>Self-Attention</p></li>
 </ul>
 </section>
-<section id="important-models" class="slide level2">
-<h2>Important Models</h2>
+<section id="popular-transformer-models" class="slide level2">
+<h2>Popular Transformer Models</h2>
 <ul>
 <li class="fragment"><p>GPT (Generative Pretrained Transformers): GPT-3, GPT-3.5, GPT-4</p></li>
 <li class="fragment"><p>BERT (Bidirectional Encoder Representations from Transformers)</p></li>
 <li class="fragment"><p>T5 (Text-to-Text Transfer Transformer)</p></li>
+<li class="fragment"><p>RoBERTa (Robustly Optimized BERT Pretraining Approach)</p></li>
 </ul>
+</section></section>
+<section>
+<section id="hugging-face-transforming-the-ai-landscape" class="title-slide slide level1 center">
+<h1>Hugging Face: Transforming the AI Landscape</h1>
+
+<img data-src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" class="quarto-discovered-preview-image r-stretch"></section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<ul>
+<li class="fragment">AI research organization</li>
+<li class="fragment">Develop cutting-edge machine learning models and tools</li>
+<li class="fragment">Popular open-source Transformers models</li>
+<li class="fragment">Providing state-of-the-art pre-trained models and tools for a wide range of tasks</li>
+</ul>
+<h3 id="key-features">Key Features</h3>
+<ul>
+<li class="fragment">Supports popular architectures like BERT, GPT, RoBERTa, and T5</li>
+<li class="fragment">Easy-to-use API for fine-tuning and deploying models</li>
+<li class="fragment">Available in Python, with support for TensorFlow and PyTorch</li>
+</ul>
+<h3 id="nlp-tasks">NLP Tasks</h3>
+<ul>
+<li class="fragment">Text classification</li>
+<li class="fragment">Sentiment analysis</li>
+<li class="fragment">Named entity recognition</li>
+<li class="fragment">Question answering</li>
+<li class="fragment">Text summarization</li>
+<li class="fragment">Language translation</li>
+<li class="fragment">And more!</li>
+</ul>
+</section>
+<section id="hugging-face-model-hub" class="slide level2">
+<h2>Hugging Face Model Hub</h2>
+<p>The <a href="https://huggingface.co/models">Model Hub</a> is a platform for sharing and discovering pre-trained models, contributed by the AI community.</p>
+<h3 id="benefits">Benefits</h3>
+<ul>
+<li class="fragment">Access to thousands of pre-trained models</li>
+<li class="fragment">Easy integration with the Transformers library</li>
+<li class="fragment">Collaborative environment for researchers and developers</li>
+</ul>
+</section>
+<section id="hugging-face-datasets" class="slide level2">
+<h2>Hugging Face Datasets</h2>
+<ul>
+<li class="fragment">Hugging Face also provides <a href="https://huggingface.co/datasets">Datasets</a></li>
+<li class="fragment">Over 29,668 datasets available</li>
+<li class="fragment">Efficient data loading and processing</li>
+<li class="fragment">Easy integration with the Transformers library</li>
+</ul>
+</section>
+<section id="hugging-face-pipelines" class="slide level2">
+<h2>Hugging Face Pipelines</h2>
+
+<img data-src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" class="r-stretch"><ul>
+<li class="fragment"><p><em>Hugging Face</em> <code>Pipelines</code> cover common machine learning tasks</p></li>
+<li class="fragment"><p>Pre-built, easy-to-use abstractions (almost no code necessary)</p></li>
+<li class="fragment"><p>Simplify workflow</p></li>
+</ul>
+</section></section>
+<section>
+<section id="state-of-the-art-examples" class="title-slide slide level1 center">
+<h1>State of the Art Examples</h1>
+
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
@@ -395,7 +472,7 @@ Jan Kirenz
 <div class="footer footer-default">
 <p>Jan Kirenz</p>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 

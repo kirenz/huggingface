@@ -408,25 +408,10 @@ Jan Kirenz
 <nav role="doc-toc"> 
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li class="fragment"><a href="#/prerequisites" id="/toc-prerequisites">Prerequisites</a>
-<ul>
-<li class="fragment"><a href="#/installation" id="/toc-installation">Installation</a></li>
-<li class="fragment"><a href="#/python-setup" id="/toc-python-setup">Python setup</a></li>
-</ul></li>
-<li class="fragment"><a href="#/intuition" id="/toc-intuition">Intuition</a>
-<ul>
-<li class="fragment"><a href="#/use-cases" id="/toc-use-cases">Use Cases</a></li>
-</ul></li>
-<li class="fragment"><a href="#/common-types" id="/toc-common-types">Common types</a>
-<ul>
-<li class="fragment"><a href="#/closed-domain-vs-open-domain" id="/toc-closed-domain-vs-open-domain">Closed-domain vs open-domain</a></li>
-</ul></li>
-<li class="fragment"><a href="#/simple-pipeline-model" id="/toc-simple-pipeline-model">Simple Pipeline Model</a>
-<ul>
-<li class="fragment"><a href="#/define-pipeline" id="/toc-define-pipeline">Define pipeline</a></li>
-<li class="fragment"><a href="#/provide-question-and-context" id="/toc-provide-question-and-context">Provide question and context</a></li>
-<li class="fragment"><a href="#/return-the-answer" id="/toc-return-the-answer">Return the answer</a></li>
-</ul></li>
+<li class="fragment"><a href="#/prerequisites" id="/toc-prerequisites">Prerequisites</a></li>
+<li class="fragment"><a href="#/intuition" id="/toc-intuition">Intuition</a></li>
+<li class="fragment"><a href="#/common-types" id="/toc-common-types">Common types</a></li>
+<li class="fragment"><a href="#/simple-pipeline-model" id="/toc-simple-pipeline-model">Simple Pipeline Model</a></li>
 </ul>
 </nav>
 </section>
@@ -435,15 +420,12 @@ Jan Kirenz
 <h1>Prerequisites</h1>
 
 </section>
-<section id="installation" class="slide level2">
-<h2>Installation</h2>
+<section id="python-setup" class="slide level2">
+<h2>Python setup</h2>
 <ul>
 <li class="fragment"><p>You need Anaconda or Miniconda</p></li>
 <li class="fragment"><p>Install this virtual environment <a href="https://github.com/kirenz/environments">env-transformers.yml</a></p></li>
 </ul>
-</section>
-<section id="python-setup" class="slide level2">
-<h2>Python setup</h2>
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -464,7 +446,7 @@ Jan Kirenz
 </ul>
 </section></section>
 <section>
-<section id="common-types" class="title-slide slide level1 center">
+<section id="common-types" class="title-slide slide level1 smaller center">
 <h1>Common types</h1>
 <ul>
 <li class="fragment"><p><em>Extractive</em> QA: The model extracts the answer from the original context.<sup>1</sup></p></li>
@@ -494,7 +476,7 @@ Jan Kirenz
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>qa_model <span class="op">=</span> pipeline(<span class="st">"question-answering"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn2"><p>Will be initialized with the default model <code>distilbert-base-cased-distilled-squad</code></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Will be initialized with the default model <a href="https://huggingface.co/docs/transformers/model_doc/distilbert">distilbert-base-cased-distilled-squad</a></p></li></ol></aside></section>
 <section id="provide-question-and-context" class="slide level2">
 <h2>Provide question and context</h2>
 <div class="fragment">

@@ -30,7 +30,7 @@ format:
 ---
 
 
-## Intuition
+# Intuition
 
 Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale Markowitz
 
@@ -48,7 +48,7 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 - Transformers: Text and more
 
-## Transformers
+## Main Characteristics of Transformers
 
 - Positional Encoding
 
@@ -56,7 +56,7 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 - Self-Attention
 
-## Important Models
+## Popular Transformer Models
 
 - GPT (Generative Pretrained Transformers): GPT-3, GPT-3.5, GPT-4 
 
@@ -64,6 +64,64 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 - T5 (Text-to-Text Transfer Transformer)
 
+- RoBERTa (Robustly Optimized BERT Pretraining Approach)
+
+# Hugging Face: Transforming the AI Landscape
+
+![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)
+
+## Overview
+
+- AI research organization
+- Develop cutting-edge machine learning models and tools
+- Popular open-source Transformers models 
+- Providing state-of-the-art pre-trained models and tools for a wide range of tasks
+
+### Key Features
+
+- Supports popular architectures like BERT, GPT, RoBERTa, and T5
+- Easy-to-use API for fine-tuning and deploying models
+- Available in Python, with support for TensorFlow and PyTorch
+
+### NLP Tasks
+
+- Text classification
+- Sentiment analysis
+- Named entity recognition
+- Question answering
+- Text summarization
+- Language translation
+- And more!
+
+## Hugging Face Model Hub
+
+The [Model Hub](https://huggingface.co/models) is a platform for sharing and discovering pre-trained models, contributed by the AI community.
+
+### Benefits
+
+- Access to thousands of pre-trained models
+- Easy integration with the Transformers library
+- Collaborative environment for researchers and developers
+
+## Hugging Face Datasets
+
+- Hugging Face also provides [Datasets](https://huggingface.co/datasets)
+- Over 29,668 datasets available
+- Efficient data loading and processing
+- Easy integration with the Transformers library
+
+## Hugging Face Pipelines 
+
+![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)
+
+- *Hugging Face* `Pipelines` cover common machine learning tasks
+
+- Pre-built, easy-to-use abstractions (almost no code necessary)
+
+- Simplify workflow
+
+
+# State of the Art Examples
 
 ## 
 
