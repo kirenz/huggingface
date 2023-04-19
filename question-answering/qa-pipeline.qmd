@@ -60,7 +60,7 @@ from transformers import pipeline
 - Chat Bots
 
 
-# Common types {.smaller  }
+# Common types 
 
 - *Extractive* QA: The model extracts the answer from the original context.
   - The context could be a provided text, a table or even HTML! This is usually solved with BERT-like models.
