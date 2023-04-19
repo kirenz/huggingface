@@ -70,3 +70,10 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 {{< video https://www.youtube.com/embed/_rGXIXyNqpk width="1920" height="1080" >}}
 
 
+##
+
+{{< video https://www.youtube.com/embed/v=17_xLsqny9E width="1920" height="1080" >}}
+
+
+
+
