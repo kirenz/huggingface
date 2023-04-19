@@ -94,7 +94,6 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 - And more!
 
 
-
 ## Model Hub
 
 The [Model Hub](https://huggingface.co/models) is a platform for sharing and discovering pre-trained models, contributed by the AI community.
@@ -102,6 +101,10 @@ The [Model Hub](https://huggingface.co/models) is a platform for sharing and dis
 - Access to thousands of pre-trained models
 - Easy integration with the Transformers library
 - Collaborative environment for researchers and developers
+
+## Spaces
+
+Discover ML apps made by the community: [Spaces](https://huggingface.co/spaces?sort=likes)
 
 ## Datasets
 
