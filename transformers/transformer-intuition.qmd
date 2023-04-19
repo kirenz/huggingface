@@ -66,6 +66,7 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 - RoBERTa (Robustly Optimized BERT Pretraining Approach)
 
+
 # Hugging Face: Transforming the AI Landscape
 
 ![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)
@@ -85,15 +86,16 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 ## NLP Tasks
 
-- Text classification
-- Sentiment analysis
-- Named entity recognition
+- Language translation
+- Text generation
 - Question answering
 - Text summarization
-- Language translation
+- Sentiment analysis
 - And more!
 
-## Hugging Face Model Hub
+
+
+## Model Hub
 
 The [Model Hub](https://huggingface.co/models) is a platform for sharing and discovering pre-trained models, contributed by the AI community.
 
@@ -101,14 +103,14 @@ The [Model Hub](https://huggingface.co/models) is a platform for sharing and dis
 - Easy integration with the Transformers library
 - Collaborative environment for researchers and developers
 
-## Hugging Face Datasets
+## Datasets
 
 - Hugging Face also provides [Datasets](https://huggingface.co/datasets)
 - Over 29,668 datasets available
 - Efficient data loading and processing
 - Easy integration with the Transformers library
 
-## Hugging Face Pipelines 
+## Pipelines 
 
 ![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)
 
@@ -134,5 +136,12 @@ Assemble, configure, and deploy autonomous AI Agents in your browser.
 ![AgentGPT](https://agentgpt.reworkd.ai/)
 
 
+<https://github.com/reworkd/AgentGPT>
 
+## Microsoft JARVIS
+
+![](https://github.com/microsoft/JARVIS/blob/main/assets/overview.jpg)
+
+
+<https://github.com/microsoft/JARVIS>
 
