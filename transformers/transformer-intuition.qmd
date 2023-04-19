@@ -77,13 +77,13 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 - Popular open-source Transformers models 
 - Providing state-of-the-art pre-trained models and tools for a wide range of tasks
 
-### Key Features
+## Key Features
 
 - Supports popular architectures like BERT, GPT, RoBERTa, and T5
 - Easy-to-use API for fine-tuning and deploying models
 - Available in Python, with support for TensorFlow and PyTorch
 
-### NLP Tasks
+## NLP Tasks
 
 - Text classification
 - Sentiment analysis
@@ -96,8 +96,6 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 ## Hugging Face Model Hub
 
 The [Model Hub](https://huggingface.co/models) is a platform for sharing and discovering pre-trained models, contributed by the AI community.
-
-### Benefits
 
 - Access to thousands of pre-trained models
 - Easy integration with the Transformers library
