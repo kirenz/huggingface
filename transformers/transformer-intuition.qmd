@@ -82,6 +82,7 @@ Transformers, explained: Understand the model behind GPT, BERT, and T5 by Dale M
 
 - Supports popular architectures like BERT, GPT, RoBERTa, and T5
 - Easy-to-use API for fine-tuning and deploying models
+  - *Fine-tuning* is the process of taking a pre-trained large language model (e.g. roBERTa) and then tweaking it with additional training data to make it perform a second similar task (e.g. sentiment analysis)
 - Available in Python, with support for TensorFlow and PyTorch
 
 ## NLP Tasks
