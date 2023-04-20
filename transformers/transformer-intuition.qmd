@@ -144,7 +144,7 @@ Assemble, configure, and deploy autonomous AI Agents in your browser.
 
 ## Microsoft JARVIS
 
-![](https://github.com/microsoft/JARVIS/blob/main/assets/overview.jpg)
+![](https://raw.githubusercontent.com/microsoft/JARVIS/main/assets/overview.jpg)
 
 
 <https://github.com/microsoft/JARVIS>
